@@ -3,7 +3,7 @@
 Solves linear circuits based on an improvised nodal analysis technique: visit https://lpsa.swarthmore.edu/Systems/Electrical/mna/MNA2.html for more details.
 Currently supports resistances, current and voltage sources as input and solves for node voltages, branch currents. Support for inductors/capacitors/alternating circuits will be added soon.
 
-Guidelines: 
+# Guidelines: 
 
 Download 'linear_circuit_solver.py' and 'solver_gui.py' and run the latter. 
 
@@ -15,7 +15,7 @@ Once you're done with the layout, click 'Solve' and enter the type of circuit el
 
 The final matrix obtained gives the values of the potentials at each node (except the ground node) with respect to the ground node, in numerical order, followed by the current passing through each voltage source, also in numerical order.
 
-Note:
+# Note:
 
 Voltage sources with value set as 0 to be used as connecting wires. 
 
